@@ -4,6 +4,10 @@ html, body {
     font-family: Roboto, 'Open Sans', sans-serif;
 }
 
+.header, .footer {
+    height: 52px;
+}
+
 .header {
     color: white;
 	background-color: #1F2937;
@@ -33,12 +37,26 @@ ul {
     margin-left: 150px;
 }
 
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+  align-items: center;
+}
+
+.one, .two, .three, .four {
+    height: 450px;
+}
+
 .one {
     color: white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    height: 450px;
     align-items: center;
 }
 
@@ -72,4 +90,34 @@ ul {
     border: transparent solid;
     background-color: #3882F6;
     border-radius: 5px;
+}
+
+.two {
+    color: black;
+    background-color: white;
+}
+
+.two h2 {
+    margin-top: 16px;
+    font-size: 34px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: #3882F6 solid 2px;
+    border-radius: 5px;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
