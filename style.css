@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Roboto, 'Open Sans', sans-serif;
 }
 
 .header {
@@ -30,4 +31,45 @@ ul {
     font-size: 24px;
     font-weight: 900;
     margin-left: 150px;
+}
+
+.one {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    align-items: center;
+}
+
+.imgplc {
+    border: white solid;
+    width: 400px;
+    height: 200px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    margin-left: 150px;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+}
+
+.left h1,p {
+    margin: 0px;
+    padding: 4px;
+}
+
+.button1 {
+    padding: 4px;
+    margin-top: 5px;
+    height: 30px;
+    width: 75px;
+    color: white;
+    border: transparent solid;
+    background-color: #3882F6;
+    border-radius: 5px;
 }
