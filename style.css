@@ -8,21 +8,35 @@ html, body {
     height: 52px;
 }
 
+.max {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
 .header {
     color: white;
 	background-color: #1F2937;
     padding: 8px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 1;
 }
 
 ul {
     display: flex;
     margin: 0;
-    margin-right: 150px;
     padding: 0;
     gap: 16px;
     list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .logo, .links {
@@ -34,7 +48,6 @@ ul {
 .logo {
     font-size: 24px;
     font-weight: 900;
-    margin-left: 150px;
 }
 
 .footer {
@@ -49,28 +62,27 @@ ul {
 }
 
 .one, .two, .three, .four {
-    height: 450px;
+    min-height: 450px;
 }
 
 .one {
     color: white;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .imgplc {
     border: white solid;
     width: 400px;
     height: 200px;
-    margin-right: 150px;
     display: flex;
 }
 
 .left {
     display: flex;
-    margin-left: 150px;
     flex-direction: column;
     height: 200px;
     width: 400px;
@@ -79,11 +91,17 @@ ul {
 .left h1,p {
     margin: 0px;
     padding: 4px;
+    max-width: 400px;
+}
+
+.left h1 {
+    font-size: 48px;
+    line-height: 50px;
 }
 
 .button1 {
     padding: 4px;
-    margin-top: 5px;
+    margin-top: 15px;
     height: 30px;
     width: 75px;
     color: white;
@@ -95,6 +113,7 @@ ul {
 .two {
     color: black;
     background-color: white;
+    padding-bottom: 16px;
 }
 
 .two h2 {
@@ -109,15 +128,58 @@ ul {
     justify-content: center;
     gap: 100px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
-    border: #3882F6 solid 2px;
-    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 10px;
+}
+
+.two p {
+    max-width: 150px;
+    height: fit-content;
 }
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.three p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 750px;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucket {
+    border: solid red;
+    width: 600px;
+    margin: 20px;
 }
