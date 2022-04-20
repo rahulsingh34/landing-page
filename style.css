@@ -107,7 +107,7 @@ ul {
     color: white;
     border: transparent solid;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .two {
@@ -117,7 +117,7 @@ ul {
 }
 
 .two h2 {
-    margin-top: 16px;
+    margin-top: 32px;
     font-size: 34px;
     margin-bottom: 64px;
     text-align: center;
@@ -178,8 +178,50 @@ ul {
     justify-content: center;
 }
 
+.outer-bucket {
+    background-color: #3882F6;
+    width: 850px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .bucket {
-    border: solid red;
-    width: 600px;
-    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width:650px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.left-f h3 {
+    color: white;
+    margin: 0;
+    padding: 4px;
+}
+
+.left-f p {
+    color: #E5E7EB;
+    margin: 0;
+    padding: 4px;
+}
+
+.right-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 {
+    padding: 4px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: solid white;
+    background-color: transparent;
+    border-radius: 7px; 
 }
