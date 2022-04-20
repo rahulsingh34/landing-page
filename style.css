@@ -32,9 +32,22 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
     list-style: none;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    box-shadow: inset 0 0 0 0 #3882F6;
+    color: #E5E7EB;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+li:hover {
+    box-shadow: inset 100px 0 0 0 #3882F6;
     color: #E5E7EB;
 }
 
@@ -107,6 +120,11 @@ ul {
     border: transparent solid;
     background-color: #3882F6;
     border-radius: 7px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #3882F6;
 }
 
 .two {
@@ -223,4 +241,9 @@ ul {
     border: solid white;
     background-color: transparent;
     border-radius: 7px; 
+}
+
+.button2:hover {
+    background-color: white;
+    color: #3882F6;
 }
